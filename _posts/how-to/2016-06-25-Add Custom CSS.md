@@ -13,15 +13,15 @@ typora-root-url: ../../
 
 ## Open Theme Folder
 
-To open Typora's theme folder in Finder/Explorer., open the preference panel in the Appearance section, click the  "Open Theme Folder" button. under section "Appearance".
+To open Typora's theme folder in Finder/Explorer, open the Preferences Panel in the Appearance section and click on the "Open Theme Folder" button.
 
 You can add your custom theme here. If you want to find, install or write themes, see the [About Themes page](/About-Themes).
 
-But you may only want to modify CSS like changing font or increase writing area, and apply it to all themes or just current theme without writing a whole new theme file. This section shows you how to do this.
+But if you just want to modify CSS — like changing font or increase writing area — and apply it to all themes or just current theme without writing a whole new theme file, this section will show you how to do this.
 
 ## Append Custom CSS to all themes or other themes
 
-Typora will load CSS files in following order:
+Typora will load CSS files in the following order:
 
 1. Typora's basic styles
 2. CSS for current theme
@@ -30,12 +30,12 @@ Typora will load CSS files in following order:
 
 You can create `base.user.css` and `{current-theme}.user.css` under the theme folder if they do not exist.
 
-If you want to change CSS styles, and apply it to **all themes**, you should modify `base.user.css` and append your own CSS, so whatever theme is selected, your CSS style will still be loaded and applied.
+If you want to change CSS styles, and apply them to **all themes**, you should modify `base.user.css` and append your own CSS, so whatever theme is selected, your CSS style will still be loaded and applied.
 
-If you want to modify some CSS for **a specific theme**, for instance "Newsprint", you can create `newsprint.user.css` and append the CSS you want. The reasons we do not recommend you modify the theme file directly are:
+If you want to modify some CSS for **a specific theme**, for instance "Newsprint", you can create `newsprint.user.css` and append the CSS you want. We do not recommend that you modify the theme file directly for the following reasons:
 
-1. Default themes that available after Typora is installed may also be updated. If this happens, then the new version simply replaces the existing one under theme folder, and your modifications will be lost.
-2. Themes developed by other people may also be changed in future. If they changed their CSS file, you can just replace their new file with your old one without worrying your modification will be gone.
+1. Default themes that are available after Typora is installed may also be updated. If this happens, then the new version simply replaces the existing one under the theme folder, and your modifications will be lost.
+2. Themes developed by other people may also be changed in the future. If they changed their CSS file, you can just replace their new file with your old one without worrying if your modification will be gone.
 
 (If you write your own CSS theme, then modifying it directly is OK.)
 
@@ -45,8 +45,8 @@ If you want to modify some CSS for **a specific theme**, for instance "Newsprint
 
 You can open Chrome/Safari DevTools to debug element styles.
 
-- On macOS, you could check `Help` -> `Enable Debug` menu item, then right click anywhere in Typora's hybrid edit view, then click "Inspect Elements" from context menu.
-- On Windows/Linux, you could open DevTools from `View` -> `Toggle DevTools` menu item.
+- On macOS, you could check `Help` -> `Enable Debug` menu item, then right-click anywhere in Typora's hybrid edit view, then click "Inspect Elements" from context menu.
+- On Windows/Linux, you could open DevTools from the `View` -> `Toggle DevTools` menu item.
 
 ## Common Style Customization
 
@@ -55,7 +55,7 @@ You can open Chrome/Safari DevTools to debug element styles.
 - [Background](/Backgound/)
 - [Code Blocks](/Code-Block-Styles/)
 - [Headers](/Auto-Numbering/)
-- [Width od Writing Area](/Width-of-Writing-Area/)
+- [Width of Writing Area](/Width-of-Writing-Area/)
 - [List Styles](/List-Style/)
 - [Task List](/Task-List/)
 - [Text Direction](/RTL/) (RTL)
