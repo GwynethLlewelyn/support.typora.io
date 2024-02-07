@@ -55,7 +55,7 @@ You can open Chrome/Safari DevTools to debug element styles.
 - [Background](/Backgound/)
 - [Code Blocks](/Code-Block-Styles/)
 - [Headers](/Auto-Numbering/)
-- [Width od Writing Area](/Width-of-Writing-Area/)
+- [Width of Writing Area](/Width-of-Writing-Area/)
 - [List Styles](/List-Style/)
 - [Task List](/Task-List/)
 - [Text Direction](/RTL/) (RTL)
